@@ -1,38 +1,26 @@
 #calculator {
     margin: 2% 40%;
     width: 30%;
+    max-width: 600px;
     text-align: center;
     background-color: grey;
+    border-radius: 4%;
 }
 
-#screen {
+/* Using a child combinator selector to select input and p tag in screen div*/
+#screen > p, input {
     width: 100%;
+    border: none;
+    text-align: right;
+    background-color: white;
 }
 
-.col-xs {
+.row > button {
     width: 22.5%;
     margin: 1.25%;
     background-color: whitesmoke;
 }
-/* Fixing margins after changing margins for "zero" divs*/
-.row.bottomRow > div {
-    margin-left: 2.5%;
-}
-/* Selecting long equals and 0 "button" divs and altering margins so they appear connected */
-#topEquals {
-    margin-bottom: 0;
-}
 
-#bottomEquals {
-   margin-top: 0; 
-}
-
-#leftZeroButton {
-    margin-left: 1.25% !important;
-    margin-right: 0;
-}
-
-#rightZeroButton {
-    text-align: left;
-    margin-left: 0 !important;
+#zeroButton {
+    width: 47.5%;
 }

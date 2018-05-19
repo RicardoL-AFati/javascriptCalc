@@ -11,38 +11,41 @@
 </head>
 <body>
     <div id="calculator" class="container">
-        <h1>FreeCodeCamp - Javascript Calculator</h1>
-        <input id ="screen"placeholder="0">
+        <h1>Javascript Calculator</h1>
+        <div id ="screen">
+            <input value="0" readonly>  
+            <p class="text-muted">0+325</p>
+        </div>
+        
         <div id="buttons">
             <div class="row">
-                <div class="col-xs">AC</div>
-                <div class="col-xs">CE</div>
-                <div class="col-xs">% </div>
-                <div class="col-xs">X </div>        
+                <button><div class="col-xs">AC</div></button>
+                <button><div class="col-xs">CE</div></button>
+                <button><div class="col-xs">/</div></button>
+                <button><div class="col-xs">x</div></button>        
             </div>
             <div class="row">
-                <div class="col-xs">7 </div>
-                <div class="col-xs">8 </div>
-                <div class="col-xs">9 </div>
-                <div class="col-xs">- </div>        
+                <button><div class="col-xs">7</div></button>
+                <button><div class="col-xs">8</div></button>
+                <button><div class="col-xs">9</div></button>
+                <button><div class="col-xs">-</div></button>        
             </div>
             <div class="row">
-                <div class="col-xs">4 </div>
-                <div class="col-xs">5 </div>
-                <div class="col-xs">6 </div>
-                <div class="col-xs">+ </div>        
+                <button><div class="col-xs">4</div></button>
+                <button><div class="col-xs">5</div></button>
+                <button><div class="col-xs">6</div></button>
+                <button><div class="col-xs">+</div></button>        
             </div>
             <div class="row">
-                <div class="col-xs">1 </div>
-                <div class="col-xs">2 </div>
-                <div class="col-xs">3 </div>
-                <div id="topEquals" class="col-xs">  </div>        
+                <button><div class="col-xs">1</div></button>
+                <button><div class="col-xs">2</div></button>
+                <button><div class="col-xs">3</div></button>
+                <button><div class="col-xs">π</div></button>        
             </div>
             <div class="row bottomRow">
-                <div id="leftZeroButton" class="col-xs">  </div>
-                <div id="rightZeroButton" class="col-xs">0 </div>
-                <div class="col-xs">. </div>
-                <div id="bottomEquals" class="col-xs">= </div>        
+                <button id="zeroButton"><div class="col-xs">0</div></button>
+                <button><div class="col-xs">.</div></button>
+                <button><div class="col-xs">=</div></button>        
             </div>
         </div>
     </div>
