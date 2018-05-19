@@ -5,8 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="calculator.js"></script>
 </head>
 <body>
+    <div id="calculator" class="container">
+        <h1>FreeCodeCamp - Javascript Calculator</h1>
+        <input id ="screen"placeholder="0">
+        <div id="buttons">
+            <div class="row">
+                <div class="col-xs">AC</div>
+                <div class="col-xs">CE</div>
+                <div class="col-xs">% </div>
+                <div class="col-xs">X </div>        
+            </div>
+            <div class="row">
+                <div class="col-xs">7 </div>
+                <div class="col-xs">8 </div>
+                <div class="col-xs">9 </div>
+                <div class="col-xs">- </div>        
+            </div>
+            <div class="row">
+                <div class="col-xs">4 </div>
+                <div class="col-xs">5 </div>
+                <div class="col-xs">6 </div>
+                <div class="col-xs">+ </div>        
+            </div>
+            <div class="row">
+                <div class="col-xs">1 </div>
+                <div class="col-xs">2 </div>
+                <div class="col-xs">3 </div>
+                <div id="topEquals" class="col-xs">  </div>        
+            </div>
+            <div class="row bottomRow">
+                <div id="leftZeroButton" class="col-xs">  </div>
+                <div id="rightZeroButton" class="col-xs">0 </div>
+                <div class="col-xs">. </div>
+                <div id="bottomEquals" class="col-xs">= </div>        
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>

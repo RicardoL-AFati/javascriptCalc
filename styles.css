@@ -1,0 +1,38 @@
+#calculator {
+    margin: 2% 40%;
+    width: 30%;
+    text-align: center;
+    background-color: grey;
+}
+
+#screen {
+    width: 100%;
+}
+
+.col-xs {
+    width: 22.5%;
+    margin: 1.25%;
+    background-color: whitesmoke;
+}
+/* Fixing margins after changing margins for "zero" divs*/
+.row.bottomRow > div {
+    margin-left: 2.5%;
+}
+/* Selecting long equals and 0 "button" divs and altering margins so they appear connected */
+#topEquals {
+    margin-bottom: 0;
+}
+
+#bottomEquals {
+   margin-top: 0; 
+}
+
+#leftZeroButton {
+    margin-left: 1.25% !important;
+    margin-right: 0;
+}
+
+#rightZeroButton {
+    text-align: left;
+    margin-left: 0 !important;
+}
