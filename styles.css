@@ -7,8 +7,17 @@
     border-radius: 4%;
 }
 
+#mainScreen {
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+#pastScreen {
+    margin-top: 0;
+    font-size: 1em;
+}
 /* Using a child combinator selector to select input and p tag in screen div*/
-#screen > p, input {
+#screens > p {
     width: 100%;
     border: none;
     text-align: right;
