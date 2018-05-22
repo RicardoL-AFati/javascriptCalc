@@ -11,18 +11,17 @@
 </head>
 <body>
     <div id="calculator" class="container">
-        <h1>Javascript Calculator</h1>
-        <div id ="screens">
-            <p id="mainScreen">0</p>
-            <p id="pastScreen" class="text-muted">0+325</p>
+        <h1>jQuery Calculator</h1>
+        <div id="calcOutput">
+            <span id="screen">0</span>
         </div>
-        
+        <!-- Bootstrap grid for calc buttons-->
         <div id="buttons">
             <div class="row">
                 <button><div class="col-xs">AC</div></button>
                 <button><div class="col-xs">CE</div></button>
                 <button><div class="col-xs">/</div></button>
-                <button><div class="col-xs">x</div></button>        
+                <button><div class="col-xs">*</div></button>        
             </div>
             <div class="row">
                 <button><div class="col-xs">7</div></button>
@@ -42,7 +41,7 @@
                 <button><div class="col-xs">3</div></button>
                 <button><div class="col-xs">π</div></button>        
             </div>
-            <div class="row bottomRow">
+            <div class="row">
                 <button id="zeroButton"><div class="col-xs">0</div></button>
                 <button><div class="col-xs">.</div></button>
                 <button><div class="col-xs">=</div></button>        
